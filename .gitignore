@@ -5,3 +5,4 @@ npm-debug.log
 convert.exe
 package-lock.json
 *.log
+debug.log

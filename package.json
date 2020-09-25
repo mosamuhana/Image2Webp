@@ -1,0 +1,27 @@
+{
+  "name": "imgtowebp",
+  "version": "1.0.0",
+  "description": "converts a folder of images to .webp",
+  "main": "convert.js",
+  "bin": "convert.js",
+  "scripts": {
+    "start": "npm run build && node convert.js",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "filesize": "^6.1.0",
+    "sharp": "^0.26.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/sharp": "^0.26.0",
+    "typescript": "^4.0.3"
+  },
+  "pkg": {
+    "targets": [
+      "latest"
+    ]
+  }
+}

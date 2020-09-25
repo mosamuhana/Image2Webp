@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": [ "es2017", "dom" ],
+    "module": "commonjs",
+    "outDir": "./lib",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowJs": true,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "strict": true,
+    "sourceMap": false
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

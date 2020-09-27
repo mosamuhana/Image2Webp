@@ -22,3 +22,11 @@ You can package the project code to exe by using [pkg](https://www.npmjs.com/pac
 - `npm i -g pkg`
 - `npm run build`
 - `pkg -t latest-win-x64 convert.js -o convert.exe`
+
+ 
+# ☕️ Donate
+<a href="https://www.buymeacoffee.com/mimm" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+
+# LICENSE
+[MIT](./LICENSE.md)
